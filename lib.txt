@@ -3,3 +3,5 @@ flask_restful
 flask_httpauth
 datetime
 requests
+python-dotenv
+keyboard
