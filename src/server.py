@@ -2,7 +2,7 @@ from flask import Flask
 from flask_restful import Resource, Api
 from flask_httpauth import HTTPBasicAuth
 from dotenv import load_dotenv, dotenv_values
-import os, hashlib
+import os
 
 app = Flask(__name__);
 api = Api(app, prefix='/api/v1');
