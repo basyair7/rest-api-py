@@ -16,7 +16,7 @@ while True:
         if(res.status_code == 200):
             print(f'Login successful : {res.text}');
             s = json.loads(res.text);
-            print(s["Maybe"]);
+            print(s["sensor"]);
             
     except:
         print("error");

@@ -16,7 +16,7 @@ USER_DATA = {
 class PrivateResource(Resource):
     @auth.login_required
     def get(self):
-        return {"Maybe": 30};
+        return {"sensor": 600.00};
 
 @auth.verify_password
 def verify(username, password):
